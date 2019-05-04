@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:fitsSystemWindows="true"
+              android:orientation="vertical"
+              android:padding="20dp">
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mã thuốc" />
+
+    <EditText
+            android:id="@+id/etmathuoc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="nhập mã thuốc" />
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tên thuốc" />
+
+    <EditText
+            android:id="@+id/ettenthuoc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="nhập tên thuốc" />
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Giá" />
+
+    <EditText
+            android:id="@+id/etgiathuoc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="giá thuốc"
+            android:inputType="numberDecimal" />
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Đơn vị" />
+
+    <EditText
+            android:id="@+id/etdonvi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Đơn vị"
+            android:inputType="numberDecimal" />
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <Button
+                android:id="@+id/save"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lưu" />
+
+        <Button
+                android:id="@+id/deleteBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Xoá" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

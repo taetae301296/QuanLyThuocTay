@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.example.quanlythuoctay">
+
+    <application
+            android:allowBackup="true"
+            android:icon="@mipmap/ic_launcher"
+            android:label="@string/app_name"
+            android:roundIcon="@mipmap/ic_launcher_round"
+            android:supportsRtl="true"
+            android:theme="@style/AppTheme">
+        <activity android:name=".Edit_HieuThuoc">
+        </activity>
+        <activity android:name=".HieuThuocViewAdapter">
+        </activity>
+        <activity android:name=".HieuThuocMainActivity">
+        </activity>
+        <activity android:name=".HoaDonViewAdapter">
+        </activity>
+        <activity android:name=".HoaDonActivity">
+        </activity>
+        <activity android:name=".Edit_ChiTietBan">
+        </activity>
+        <activity android:name=".ChiTietBanViewAdapter">
+        </activity>
+        <activity android:name=".ChiTietBan">
+        </activity>
+        <activity android:name=".chitietbanActivity">
+        </activity>
+        <activity android:name=".Edit_ThuocTay">
+        </activity>
+        <activity android:name=".ThuocTayViewAdapter">
+        </activity>
+        <activity android:name=".ThuocTayMainActivity">
+        </activity>
+        <activity android:name=".ThuocTayActivity">
+        </activity>
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
